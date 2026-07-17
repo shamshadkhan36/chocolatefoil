@@ -57,7 +57,7 @@ export default function MyAccountPage() {
       total: 267.00,
       paymentMethod: 'Credit Card',
       items: [
-        { product: { name: 'Royal Gold Chocolate Foil Roll', image: 'https://images.unsplash.com/photo-1549007994-cb92ca818bc6?q=80&w=150' }, quantity: 2, selectedSize: { name: 'Boutique Roll (50m)' } }
+        { product: { name: 'Royal Gold Chocolate Foil Roll', image: 'https://images.unsplash.com/photo-1587132137056-bfbf0166836e?q=80&w=150' }, quantity: 2, selectedSize: { name: 'Boutique Roll (50m)' } }
       ]
     },
     {

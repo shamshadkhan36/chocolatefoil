@@ -175,7 +175,7 @@ export default function Hero() {
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
               >
                 <img 
-                  src="https://images.unsplash.com/photo-1549007994-cb92ca818bc6?q=80&w=80&auto=format&fit=crop" 
+                  src="https://images.unsplash.com/photo-1587132137056-bfbf0166836e?q=80&w=80&auto=format&fit=crop" 
                   alt="Roll preview" 
                   className="h-10 w-10 object-cover rounded-lg border border-primary-gold/10"
                 />

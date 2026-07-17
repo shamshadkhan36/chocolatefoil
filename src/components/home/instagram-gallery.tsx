@@ -15,8 +15,8 @@ const InstagramIcon = ({ className }: { className?: string }) => (
 
 export default function InstagramGallery() {
   const images = [
-    { url: 'https://images.unsplash.com/photo-1549007994-cb92ca818bc6?q=80&w=400&auto=format&fit=crop', likes: 324, comments: 24 },
-    { url: 'https://images.unsplash.com/photo-1504198453319-5ce911bafcde?q=80&w=400&auto=format&fit=crop', likes: 189, comments: 12 },
+    { url: 'https://images.unsplash.com/photo-1587132137056-bfbf0166836e?q=80&w=400&auto=format&fit=crop', likes: 324, comments: 24 },
+    { url: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=400&auto=format&fit=crop', likes: 189, comments: 12 },
     { url: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=400&auto=format&fit=crop', likes: 412, comments: 38 },
     { url: 'https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?q=80&w=400&auto=format&fit=crop', likes: 254, comments: 19 },
     { url: 'https://images.unsplash.com/photo-1587132137056-bfbf0166836e?q=80&w=400&auto=format&fit=crop', likes: 301, comments: 21 },
