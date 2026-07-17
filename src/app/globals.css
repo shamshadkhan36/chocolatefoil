@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-gold: #D4AF37;
+  --color-primary-light-gold: #F3E5AB;
+  --color-primary-dark-gold: #AA7C11;
+  
+  --color-chocolate-dark: #1C0F0A;
+  --color-chocolate-medium: #2C1A12;
+  --color-chocolate-light: #3E271E;
+  --color-chocolate-accent: #8F6E4D;
+  
+  --color-cream-bg: #FCFAF7;
+  --color-cream-light: #FFFDFB;
+  
+  --font-serif: var(--font-serif), Georgia, serif;
+  --font-sans: var(--font-sans), system-ui, sans-serif;
+  
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-spin-slow: spin 20s linear infinite;
+  --animate-shimmer: shimmer 2.5s infinite linear;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-15px) rotate(3deg); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+:root {
+  --background: #FCFAF7;
+  --foreground: #1C0F0A;
+  --card-bg: rgba(255, 253, 251, 0.7);
+  --card-border: rgba(212, 175, 55, 0.15);
+}
+
+.dark {
+  --background: #0A0503;
+  --foreground: #FCFAF7;
+  --card-bg: rgba(28, 15, 10, 0.6);
+  --card-border: rgba(212, 175, 55, 0.25);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+}
+
+/* Glassmorphism Classes */
+.glass-premium {
+  background: var(--card-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--card-border);
+}
+
+.glass-navbar {
+  background: rgba(252, 250, 247, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.dark .glass-navbar {
+  background: rgba(10, 5, 3, 0.8);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: #2C1A12;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
+
+/* Typography styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+/* Shimmer Skeleton */
+.shimmer-bg {
+  background: linear-gradient(90deg, #ece9e6 25%, #f9f6f0 50%, #ece9e6 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+.dark .shimmer-bg {
+  background: linear-gradient(90deg, #1C0F0A 25%, #2C1A12 50%, #1C0F0A 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
