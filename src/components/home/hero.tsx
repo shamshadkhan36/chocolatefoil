@@ -40,30 +40,69 @@ export default function Hero() {
 
       {/* Floating Gold Foil Particles (Foreground) */}
       <div className="absolute inset-0 pointer-events-none z-10 overflow-hidden">
-        {/* Floating Foil Wrapper 1 */}
+        {/* Floating Foil Wrapper 1: Gold */}
         <motion.div
-          className="absolute h-14 w-14 bg-gradient-to-tr from-primary-gold to-primary-light-gold rounded-lg shadow-lg border border-white/20 flex items-center justify-center text-[10px] text-chocolate-dark font-serif font-bold uppercase opacity-80"
+          className="absolute h-14 w-14 bg-gradient-to-tr from-primary-gold to-primary-light-gold rounded-lg shadow-lg border border-white/20 flex items-center justify-center text-[10px] text-chocolate-dark font-serif font-bold uppercase opacity-85"
           style={{ left: '8%', top: '25%', rotate: '15deg' }}
           animate={{
-            y: [0, -25, 0],
-            rotate: [15, 30, 15],
+            y: [0, -35, 0],
+            rotate: [15, 35, 15],
           }}
           transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
         >
           Gold
         </motion.div>
         
-        {/* Floating Foil Wrapper 2 */}
+        {/* Floating Foil Wrapper 2: Ruby */}
         <motion.div
-          className="absolute h-10 w-10 bg-gradient-to-tr from-red-500 to-rose-400 rounded-full shadow-lg border border-white/20 flex items-center justify-center text-[8px] text-white font-bold opacity-75"
+          className="absolute h-10 w-10 bg-gradient-to-tr from-red-500 to-rose-450 rounded-full shadow-lg border border-white/20 flex items-center justify-center text-[8px] text-white font-bold opacity-80"
           style={{ right: '12%', top: '15%', rotate: '-10deg' }}
           animate={{
-            y: [0, -15, 0],
-            rotate: [-10, -25, -10],
+            y: [0, -25, 0],
+            rotate: [-10, -30, -10],
           }}
           transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 1 }}
         >
           Ruby
+        </motion.div>
+
+        {/* Floating Foil Wrapper 3: Sapphire */}
+        <motion.div
+          className="absolute h-12 w-12 bg-gradient-to-tr from-blue-600 to-cyan-400 rounded-lg shadow-lg border border-white/20 flex items-center justify-center text-[9px] text-white font-bold opacity-80"
+          style={{ right: '25%', bottom: '25%', rotate: '45deg' }}
+          animate={{
+            y: [0, -30, 0],
+            rotate: [45, 15, 45],
+          }}
+          transition={{ duration: 8, repeat: Infinity, ease: "easeInOut", delay: 1.5 }}
+        >
+          Sapphire
+        </motion.div>
+
+        {/* Floating Foil Wrapper 4: Emerald */}
+        <motion.div
+          className="absolute h-11 w-11 bg-gradient-to-tr from-emerald-600 to-teal-350 rounded-full shadow-lg border border-white/20 flex items-center justify-center text-[8px] text-white font-bold opacity-80"
+          style={{ left: '20%', bottom: '15%', rotate: '-30deg' }}
+          animate={{
+            y: [0, -20, 0],
+            rotate: [-30, -5, -30],
+          }}
+          transition={{ duration: 9, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
+        >
+          Emerald
+        </motion.div>
+
+        {/* Floating Foil Wrapper 5: Purple */}
+        <motion.div
+          className="absolute h-9 w-9 bg-gradient-to-tr from-purple-650 to-pink-500 rounded-lg shadow-lg border border-white/20 flex items-center justify-center text-[8px] text-white font-bold opacity-75"
+          style={{ left: '45%', top: '10%', rotate: '20deg' }}
+          animate={{
+            y: [0, -15, 0],
+            rotate: [20, 40, 20],
+          }}
+          transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 2.5 }}
+        >
+          Purple
         </motion.div>
 
         {/* Floating Chocolate Bar Piece */}

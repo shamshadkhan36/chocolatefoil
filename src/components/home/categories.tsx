@@ -27,6 +27,41 @@ export default function Categories() {
     }
   };
 
+  const getOverlayClass = (name: string) => {
+    switch (name) {
+      case 'Chocolate Foils':
+        return 'from-blue-950 via-blue-900/30 to-black/10 group-hover:from-blue-900 group-hover:via-blue-800/40';
+      case 'Gold Foils':
+        return 'from-amber-950 via-amber-900/30 to-black/10 group-hover:from-amber-900 group-hover:via-amber-800/40';
+      case 'Silver Foils':
+        return 'from-slate-950 via-slate-900/30 to-black/10 group-hover:from-slate-900 group-hover:via-slate-800/40';
+      case 'Printed Foils':
+        return 'from-chocolate-dark via-chocolate-dark/30 to-black/10 group-hover:from-chocolate-light group-hover:via-chocolate-medium/40';
+      case 'Color Foils':
+        return 'from-purple-950 via-purple-900/30 to-black/10 group-hover:from-purple-900 group-hover:via-fuchsia-800/45';
+      case 'Candy Wrappers':
+        return 'from-red-950 via-red-900/30 to-black/10 group-hover:from-red-900 group-hover:via-rose-800/40';
+      case 'Gift Packaging':
+        return 'from-emerald-950 via-emerald-900/30 to-black/10 group-hover:from-emerald-900 group-hover:via-teal-800/40';
+      case 'Chocolate Boxes':
+        return 'from-stone-950 via-stone-900/30 to-black/10 group-hover:from-stone-900 group-hover:via-stone-850/40';
+      default:
+        return 'from-chocolate-dark via-chocolate-dark/30 to-black/10 group-hover:via-chocolate-dark/40';
+    }
+  };
+
+  const getBorderHoverClass = (name: string) => {
+    switch (name) {
+      case 'Chocolate Foils': return 'group-hover:border-blue-400';
+      case 'Gold Foils': return 'group-hover:border-primary-gold';
+      case 'Silver Foils': return 'group-hover:border-slate-300';
+      case 'Color Foils': return 'group-hover:border-fuchsia-400';
+      case 'Candy Wrappers': return 'group-hover:border-red-400';
+      case 'Gift Packaging': return 'group-hover:border-emerald-400';
+      default: return 'group-hover:border-primary-gold';
+    }
+  };
+
   return (
     <section className="py-20 bg-cream-light dark:bg-chocolate-medium border-y border-primary-gold/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -60,11 +95,11 @@ export default function Categories() {
                 className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
 
-              {/* Tint overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-chocolate-dark via-chocolate-dark/30 to-black/10 group-hover:via-chocolate-dark/40 transition-colors duration-300" />
+              {/* Dynamic colored tint overlay */}
+              <div className={`absolute inset-0 bg-gradient-to-t ${getOverlayClass(cat.name)} transition-all duration-300`} />
 
               {/* Hover highlight border */}
-              <div className="absolute inset-4 border border-primary-gold/20 group-hover:border-primary-gold/60 rounded-xl transition-colors duration-500 pointer-events-none" />
+              <div className={`absolute inset-4 border border-primary-gold/15 rounded-xl transition-all duration-500 pointer-events-none ${getBorderHoverClass(cat.name)}`} />
 
               {/* Category Name */}
               <div className="absolute bottom-6 left-6 right-6 text-left">

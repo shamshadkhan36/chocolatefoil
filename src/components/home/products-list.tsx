@@ -45,6 +45,20 @@ export default function ProductsList() {
     }, 1200);
   };
 
+  const getCategoryColorClass = (category: string) => {
+    switch (category) {
+      case 'Chocolate Foils': return 'text-blue-500';
+      case 'Gold Foils': return 'text-amber-500';
+      case 'Silver Foils': return 'text-slate-400 dark:text-slate-300';
+      case 'Printed Foils': return 'text-yellow-600 dark:text-yellow-500';
+      case 'Color Foils': return 'text-fuchsia-500';
+      case 'Candy Wrappers': return 'text-red-500';
+      case 'Gift Packaging': return 'text-emerald-500';
+      case 'Chocolate Boxes': return 'text-stone-400';
+      default: return 'text-primary-gold';
+    }
+  };
+
   return (
     <section id="products-section" className="py-20 bg-cream-bg dark:bg-chocolate-dark scroll-mt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -140,7 +154,7 @@ export default function ProductsList() {
                         </span>
                       )}
                     </div>
-
+ 
                     {/* Image Container & Quick Actions Overlay */}
                     <div className="relative aspect-square w-full overflow-hidden bg-white/40 dark:bg-black/10 border-b border-primary-gold/10">
                       <img 
@@ -170,11 +184,11 @@ export default function ProductsList() {
                         </button>
                       </div>
                     </div>
-
+ 
                     {/* Details Info */}
                     <div className="p-5 flex-1 flex flex-col justify-between">
                       <div className="space-y-2">
-                        <span className="text-[9px] font-bold text-primary-gold uppercase tracking-wider font-sans">{product.category}</span>
+                        <span className={`text-[9px] font-bold uppercase tracking-wider font-sans ${getCategoryColorClass(product.category)}`}>{product.category}</span>
                         <h3 className="text-sm sm:text-base font-serif font-bold text-chocolate-dark dark:text-cream-bg line-clamp-1 hover:text-primary-gold cursor-pointer" onClick={() => setSelectedProduct(product)}>
                           {product.name}
                         </h3>

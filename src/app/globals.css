@@ -13,6 +13,14 @@
   --color-cream-bg: #FCFAF7;
   --color-cream-light: #FFFDFB;
   
+  /* Vibrant colorful foil colors */
+  --color-foil-ruby: #C41E3A;
+  --color-foil-emerald: #097969;
+  --color-foil-sapphire: #0047AB;
+  --color-foil-amethyst: #702963;
+  --color-foil-tangerine: #F28500;
+  --color-foil-rose: #E0115F;
+  
   --font-serif: var(--font-serif), Georgia, serif;
   --font-sans: var(--font-sans), system-ui, sans-serif;
   
