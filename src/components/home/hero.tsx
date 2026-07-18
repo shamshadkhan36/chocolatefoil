@@ -156,7 +156,7 @@ export default function Hero() {
               {/* Main Luxury chocolate display image */}
               <div className="h-full w-full rounded-2xl overflow-hidden relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1604152135912-04a022e23696?q=80&w=600&auto=format&fit=crop" 
+                  src="https://images.unsplash.com/photo-1599599810769-bcde5a160d32?q=80&w=600&auto=format&fit=crop" 
                   alt="Luxury chocolates wrapped in gold foil" 
                   className="h-full w-full object-cover select-none"
                 />

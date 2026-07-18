@@ -8,13 +8,13 @@ export default function Categories() {
   const { setSearch } = useShop();
 
   const cats = [
-    { name: 'Chocolate Foils', image: 'https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?q=80&w=400&auto=format&fit=crop' },
-    { name: 'Gold Foils', image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=400&auto=format&fit=crop' },
+    { name: 'Chocolate Foils', image: 'https://images.unsplash.com/photo-1502691876148-a84978e59af8?q=80&w=400&auto=format&fit=crop' },
+    { name: 'Gold Foils', image: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=400&auto=format&fit=crop' },
     { name: 'Silver Foils', image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=400&auto=format&fit=crop' },
     { name: 'Printed Foils', image: 'https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?q=80&w=400&auto=format&fit=crop' },
-    { name: 'Color Foils', image: 'https://images.unsplash.com/photo-1587132137056-bfbf0166836e?q=80&w=400&auto=format&fit=crop' },
-    { name: 'Candy Wrappers', image: 'https://images.unsplash.com/photo-1511381939415-e44015466834?q=80&w=400&auto=format&fit=crop' },
-    { name: 'Gift Packaging', image: 'https://images.unsplash.com/photo-1604152135912-04a022e23696?q=80&w=400&auto=format&fit=crop' },
+    { name: 'Color Foils', image: 'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?q=80&w=400&auto=format&fit=crop' },
+    { name: 'Candy Wrappers', image: 'https://images.unsplash.com/photo-1546964124-0cce460f38ef?q=80&w=400&auto=format&fit=crop' },
+    { name: 'Gift Packaging', image: 'https://images.unsplash.com/photo-1481391319762-47dff72954d9?q=80&w=400&auto=format&fit=crop' },
     { name: 'Chocolate Boxes', image: 'https://images.unsplash.com/photo-1604152135912-04a022e23696?q=80&w=400&auto=format&fit=crop' }
   ];
 

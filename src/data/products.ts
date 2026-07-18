@@ -77,10 +77,10 @@ export const products: Product[] = [
     price: 79.00,
     rating: 4.8,
     reviewsCount: 86,
-    image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1553456558-aff63285bdd1?q=80&w=600&auto=format&fit=crop',
     images: [
-      'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?q=80&w=600&auto=format&fit=crop'
+      'https://images.unsplash.com/photo-1553456558-aff63285bdd1?q=80&w=600&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=600&auto=format&fit=crop'
     ],
     category: 'Silver Foils',
     colors: [
@@ -122,10 +122,10 @@ export const products: Product[] = [
     price: 34.00,
     rating: 4.7,
     reviewsCount: 92,
-    image: 'https://images.unsplash.com/photo-1511381939415-e44015466834?q=80&w=600&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?q=80&w=600&auto=format&fit=crop',
     images: [
-      'https://images.unsplash.com/photo-1511381939415-e44015466834?q=80&w=600&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1587132137056-bfbf0166836e?q=80&w=600&auto=format&fit=crop'
+      'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?q=80&w=600&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1546964124-0cce460f38ef?q=80&w=600&auto=format&fit=crop'
     ],
     category: 'Candy Wrappers',
     colors: [
@@ -254,10 +254,10 @@ export const products: Product[] = [
     price: 65.00,
     rating: 4.8,
     reviewsCount: 153,
-    image: 'https://images.unsplash.com/photo-1587132137056-bfbf0166836e?q=80&w=600&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1502691876148-a84978e59af8?q=80&w=600&auto=format&fit=crop',
     images: [
-      'https://images.unsplash.com/photo-1587132137056-bfbf0166836e?q=80&w=600&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1511381939415-e44015466834?q=80&w=600&auto=format&fit=crop'
+      'https://images.unsplash.com/photo-1502691876148-a84978e59af8?q=80&w=600&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?q=80&w=600&auto=format&fit=crop'
     ],
     category: 'Color Foils',
     colors: [
@@ -301,10 +301,10 @@ export const products: Product[] = [
     price: 12.00,
     rating: 4.9,
     reviewsCount: 65,
-    image: 'https://images.unsplash.com/photo-1604152135912-04a022e23696?q=80&w=600&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1481391319762-47dff72954d9?q=80&w=600&auto=format&fit=crop',
     images: [
-      'https://images.unsplash.com/photo-1604152135912-04a022e23696?q=80&w=600&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1604152135912-04a022e23696?q=80&w=600&auto=format&fit=crop'
+      'https://images.unsplash.com/photo-1481391319762-47dff72954d9?q=80&w=600&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1618354691373-d851c5c3a990?q=80&w=600&auto=format&fit=crop'
     ],
     category: 'Chocolate Boxes',
     colors: [
