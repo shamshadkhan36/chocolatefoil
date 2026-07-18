@@ -23,7 +23,7 @@ export default function AboutCompany() {
 
             <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl border border-primary-gold/15">
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=600&auto=format&fit=crop" 
+                src="/hero_chocolates.png" 
                 alt="Chocolate foil wrapping machinery" 
                 className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
               />

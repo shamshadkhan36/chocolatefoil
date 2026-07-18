@@ -57,7 +57,7 @@ export default function MyAccountPage() {
       total: 267.00,
       paymentMethod: 'Credit Card',
       items: [
-        { product: { name: 'Royal Gold Chocolate Foil Roll', image: 'https://images.unsplash.com/photo-1587132137056-bfbf0166836e?q=80&w=150' }, quantity: 2, selectedSize: { name: 'Boutique Roll (50m)' } }
+        { product: { name: 'Royal Gold Chocolate Foil Roll', image: '/gold_foil.png' }, quantity: 2, selectedSize: { name: 'Boutique Roll (50m)' } }
       ]
     },
     {
@@ -67,7 +67,7 @@ export default function MyAccountPage() {
       total: 102.00,
       paymentMethod: 'UPI Pay',
       items: [
-        { product: { name: 'Ruby Red Candy Wrappers', image: 'https://images.unsplash.com/photo-1511381939415-e44015466834?q=80&w=150' }, quantity: 3, selectedSize: { name: 'Standard (10x10 cm)' } }
+        { product: { name: 'Ruby Red Candy Wrappers', image: '/candy_wrappers.png' }, quantity: 3, selectedSize: { name: 'Standard (10x10 cm)' } }
       ]
     }
   ];

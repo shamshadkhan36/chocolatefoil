@@ -15,12 +15,12 @@ const InstagramIcon = ({ className }: { className?: string }) => (
 
 export default function InstagramGallery() {
   const images = [
-    { url: 'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?q=80&w=400&auto=format&fit=crop', likes: 324, comments: 24 },
-    { url: 'https://images.unsplash.com/photo-1546964124-0cce460f38ef?q=80&w=400&auto=format&fit=crop', likes: 189, comments: 12 },
-    { url: 'https://images.unsplash.com/photo-1502691876148-a84978e59af8?q=80&w=400&auto=format&fit=crop', likes: 412, comments: 38 },
-    { url: 'https://images.unsplash.com/photo-1481391319762-47dff72954d9?q=80&w=400&auto=format&fit=crop', likes: 254, comments: 19 },
-    { url: 'https://images.unsplash.com/photo-1587132137056-bfbf0166836e?q=80&w=400&auto=format&fit=crop', likes: 301, comments: 21 },
-    { url: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=400&auto=format&fit=crop', likes: 588, comments: 45 }
+    { url: '/hero_chocolates.png', likes: 324, comments: 24 },
+    { url: '/candy_wrappers.png', likes: 189, comments: 12 },
+    { url: '/color_assortment.png', likes: 412, comments: 38 },
+    { url: '/chocolate_box.png', likes: 254, comments: 19 },
+    { url: '/gold_foil.png', likes: 301, comments: 21 },
+    { url: '/printed_foil.png', likes: 588, comments: 45 }
   ];
 
   return (
